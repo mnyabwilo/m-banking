@@ -19,12 +19,12 @@
 	} 
 	
 	function displaymenu(){  
-		$ussd_text="CON infoshule. \n 1. Kiswahili \n 2. English \n";  
+		$ussd_text="CON infobank. \n 1. Kiswahili \n 2. English \n";  
 		ussd_proceed($ussd_text);  
 	} 
 	
 	function mwanzo($exploded_text){  
-		$ussd_text="CON infoshule. \n 1. Salio \n 2. Balance \n 3. Withdraw \n 4. Deposit \n";  
+		$ussd_text="CON infobank. \n 1. Salio \n 2. Balance \n 3. Withdraw \n 4. Deposit \n";  
 		ussd_proceed($ussd_text);  
 	} 
 	
